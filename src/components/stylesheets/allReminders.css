@@ -1,0 +1,26 @@
+.AllReminders__container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.AllReminders__actions{
+    border: 2px solid black;
+    padding: 0px 0px 0px 18vw;
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.AllReminders__actions button,select{
+    padding: 3px 12px ;
+    border-radius: 9px;
+}
+
+.AllReminders__canvas{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}

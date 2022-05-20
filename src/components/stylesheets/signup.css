@@ -1,0 +1,21 @@
+.signup__mainContainer{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    height: 100vh;   
+}
+
+.signup__mainContainer input{
+    margin: 5px;
+    padding: 5px 5px;
+    max-width: 50vw;
+    min-width: 30vw;
+}
+.signup__mainContainer button{
+    margin: 3px;
+    padding: 5px 17px;
+    cursor: pointer;
+    margin-bottom: 1rem;
+}

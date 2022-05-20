@@ -1,0 +1,19 @@
+.AddReminder__container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+input,select{
+    width: 40%;
+    margin: 8px;
+    padding: 5px 10px;
+}
+/* button{
+    font-weight: bolder;
+    font-size: large;
+    padding: 3px 20px;
+    margin: 8px auto;
+    border-radius: 5px;
+} */

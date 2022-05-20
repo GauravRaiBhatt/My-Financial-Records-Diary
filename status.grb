@@ -1,0 +1,60 @@
+store = {
+    user:{
+        userData:{
+            userName:'user1',
+            recepients:[
+                id1,id2,........
+            ],
+            userEmail:'user1@tgrb.org'
+        }
+    },
+
+    data:{
+        recepientData:[
+            {},
+            {}
+        ]
+    }
+}
+
+#done   1) in addRecepient =>  after submit btn is clicked redux and backend gets updated properly but ....
+    it stays on route -> /addRecepient .
+
+#done  **2) write code for rmove  / reset recepient   ..
+
+#done 3) adding recepient => update activeRecepientData after a transaction is added.
+
+
+#done 4) also fetch allTransaction on reload 
+
+        -------->  =====> 5) also render <Transaction/> component <====== <-------------
+
+**6) if u are on transaction page wanna go back to home ...
+        u can't use browser controls for the same bcoz it will follow the history <--- fix this.
+        or u can even add a home btn.
+#done **7) add transactionId in the transaction
+
+
+#done 8) couldn't update recepientAmount bcoz firstly recepientId may be null
+
+9) update amounts when transaction/ recepient is deleted.
+10) fix => lent is always false in transaction{}
+11) dealing with -ve amount.total => if amount.lent > amount.borrowed
+
+15/9/21
+ deleting transaction :- cancel not working.....
+
+31/10/21
+ add interest calculation also accept interest rate
+ 
+**4/5/2022
+  remove profile pics when deleting the recepient 
+
+**VIP
+  improve recepientData fetch,
+        * by just fetching data for user.userData.recepients[]
+
+12/5/22
+  the default recepient on addRminder page creates error when default get selected
+
+

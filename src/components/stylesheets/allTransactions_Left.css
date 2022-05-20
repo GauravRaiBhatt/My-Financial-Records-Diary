@@ -1,0 +1,47 @@
+#AllTransactionsLeft__container {
+  flex: 0.3;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 2px solid green;
+  padding: 5px;
+}
+#AllTransactionsLeft__controls {
+  display: flex;
+  width: 100%;
+}
+
+#AllTransactionsLeft__controls__addTransaction {
+  flex: 1;
+}
+#AllTransactionsLeft__controls__addTransaction button {
+  margin-left: 2px;
+  width: 100%;
+  border: none;
+  font-size: 0.8rem;
+  padding: 7px 5px;
+  font-weight: bolder;
+  border-bottom: 1px solid white;
+  border-bottom-left-radius: 15px;
+  border-top-right-radius: 15px;
+  background-color: rgba(128, 128, 128, 0.427);
+  margin-bottom: 5px;
+}
+#AllTransactionsLeft__controls__addTransaction button:hover {
+  color: rgb(149, 255, 0);
+  background-color: rgba(0, 0, 0, 0.46);
+  text-shadow: 3px white;
+  text-indent: 2px;
+  transition: 100ms;
+}
+
+#AllTransactionsLeft__body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#AllTransactionsLeft__body img {
+  height: 7rem;
+  border-radius: 50%;
+}
